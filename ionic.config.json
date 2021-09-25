@@ -1,0 +1,7 @@
+{
+  "name": "Analyzo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
