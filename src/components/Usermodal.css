@@ -1,0 +1,122 @@
+.usermodal .modal-wrapper,
+.usermodal .modal-shadow {
+  background-color: #202020;
+  width: 90%;
+  border-radius: 8px;
+}
+
+.usermodal.bottom {
+  align-items: flex-end;
+}
+
+.usermodal {
+  --height: auto;
+  align-items: flex-start;
+  padding-top: 18%;
+}
+.usermodal .ion-page {
+  position: relative;
+  display: block;
+  contain: content;
+}
+
+.usermodal .ion-page .inner-content {
+  max-height: 80vh;
+  overflow: auto;
+  padding: 10px;
+}
+
+.usermodal ion-grid {
+  width: 100%;
+}
+
+.usermodal .logo {
+  font-size: larger;
+}
+
+.usermodal .logo ion-img {
+  margin-top: 8px;
+  margin-right: 20px;
+  height: 24px;
+}
+
+.usermodal ion-list.nav-list {
+  padding: 0px;
+  margin: 0px;
+}
+
+.white {
+  color: #fff !important;
+}
+
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.text {
+  color: #fff;
+}
+
+.subtext {
+  font-size: smaller;
+  color: #9e9e9e;
+}
+
+.seperator {
+  border-bottom: 1px solid #9e9e9e;
+}
+
+.bg-transparent,
+ion-list.bg-transparent > * {
+  --background: transparent;
+  background-color: transparent;
+}
+
+.border-1 {
+  border: 1px solid #9e9e9e;
+}
+
+.border-2 {
+  border: 2px solid #9e9e9e;
+}
+
+.border-radius-8 {
+  border-radius: 8px;
+}
+
+.border-radius {
+  border-radius: 16px;
+}
+
+.p-1 {
+  padding: 2px;
+}
+
+.p-2 {
+  padding: 4px;
+}
+
+.p-3 {
+  padding: 8px;
+}
+
+.p-4 {
+  padding: 12px;
+}
+
+.m-1 {
+  margin: 2px;
+}
+
+.m-2 {
+  margin: 4px;
+}
+
+.m-3 {
+  margin: 8px;
+}
+
+.m-4 {
+  margin: 12px;
+}

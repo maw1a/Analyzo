@@ -1,0 +1,21 @@
+.datacard {
+  border-radius: 16px;
+  overflow: hidden;
+  margin-block: 16px;
+}
+
+.datacard ion-img {
+  aspect-ratio: 2;
+  object-fit: cover;
+}
+
+.datacard ion-card-content {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  padding: 0px;
+  margin-inline: 16px;
+  margin-bottom: 16px;
+}

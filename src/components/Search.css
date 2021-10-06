@@ -1,0 +1,9 @@
+.searchbar {
+  --background: #202020;
+  margin-top: 16px;
+}
+
+.searchbar .searchbar-input-container {
+  border-radius: 32px;
+  overflow: hidden;
+}
